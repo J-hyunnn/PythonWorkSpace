@@ -39,4 +39,22 @@ else:
     print ("You CAN NOT ride it!")
 
 
+# 4
+# Calculate age from the birth year.
+
+birthyear = int(input("Which year were you born?"))
+age = 2021 - birthyear + 1
+print ("You are {0} years old.".format(age))
+if (age >= 8 ) and (age <= 13):
+    print ("Elementary school")
+elif (age >= 14) and (age <= 16):
+    print("middle school")
+elif (age >= 17) and (age <= 19):
+    print("high school")
+elif age >= 20:
+    print("adult")
+else:
+    print("preschool child")
+
+
 '''
