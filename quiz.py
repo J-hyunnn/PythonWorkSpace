@@ -11,7 +11,7 @@ while True:
 
 files.close()
 
-'''
+
 
 # 2
 # You can get 10% discount when you spend more than 10000 won
@@ -25,3 +25,18 @@ if saleprice >= 10000:
 else:
     print("You do not get any discount!")
 
+
+
+# 3
+# You can ride the rides when your are over 12 years old and over 120cm tall.
+
+age = int(input("How old are you?"))
+tall = int(input("How tall are you? cm"))
+
+if (age >= 12) and (tall >=120):
+    print ("You can ride it, Enjoy!")
+else:
+    print ("You CAN NOT ride it!")
+
+
+'''
