@@ -128,5 +128,25 @@ for x in range(10):
 
 print(sum)
 
+
+# 구구단
+
+num = input("몇 단을 외울까요?")
+i = 1
+
+def multi(num, i):
+    while i <= 9:
+        print("{0} * {1} = {2}".format(num, i, int(num) * i))
+        i += 1
+
+multi(num, i)
+
+
 '''
 
+# 구구단
+
+num = int(input("몇 단을 외울까요?"))
+
+for i in range(1,10):
+    print ("{0} * {1} = {2}".format(num, i, num * i))

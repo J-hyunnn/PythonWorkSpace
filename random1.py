@@ -75,5 +75,11 @@ else:
 
 import random
 
-number = random.randrange(1,46)
-print (number)
+lotto = []
+
+while len(lotto) <= 5:
+    num = random.randrange(1,46)
+    lotto.append(num)
+    set(lotto)
+print ("The winning numbers are {0}.".format(sorted(lotto)))
+
