@@ -57,4 +57,17 @@ else:
     print("preschool child")
 
 
+
+
+# 5
+# do the sum from 1 to number
+# 1 2 3 4 5 6 7 8 9 10
+
+
+sum = 0
+
+for x in range(1,11):
+    sum = sum + x
+print("from 1 to 10's total sum is {0}".format(sum))
+
 '''
