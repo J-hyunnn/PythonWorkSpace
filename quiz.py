@@ -61,7 +61,6 @@ else:
 
 # 5
 # do the sum from 1 to number
-# 1 2 3 4 5 6 7 8 9 10
 
 
 sum = 0
@@ -70,4 +69,64 @@ for x in range(1,11):
     sum = sum + x
 print("from 1 to 10's total sum is {0}".format(sum))
 
+
+
+# 5-1
+
+lastNo = int(input("please give me a number."))
+i = 1
+sum = 0
+while i <= lastNo:
+    sum = sum + i
+    i += 1
+print (sum)
+
+
+
+# 6 calculate odd number from 1 to 10
+
+oddNo=0
+
+for i in range(1,10,2):
+
+    oddNo = oddNo + i 
+
+print ("Total sum of odd number from 1 and 10 is {0}".format(oddNo))
+
+
+
+# 6-1
+
+oddNo = 0
+
+for i in range(1, 10):
+    if (i % 2 == 1):
+        print (i)
+        oddNo = oddNo + i
+        i += 1
+
+print("Total sum of odd number from 1 and 10 is {0}".format(oddNo))
+
+
+
+i = 1
+sum = 0
+
+while i <= 9:
+    if i % 2 == 1:
+        sum = sum + i
+    i += 1
+
+print (sum)
+
+
+# Viktors
+sum = 0
+for x in range(10):
+    if x % 2 == 1:
+        sum = sum + x
+
+print(sum)
+
 '''
+
